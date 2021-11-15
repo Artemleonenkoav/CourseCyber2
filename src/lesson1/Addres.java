@@ -3,12 +3,11 @@ package lesson1;
 public class Addres {
 
     public int index;
-    String country;
-    String city;
-    String street;
-    int houseNumber;
-    String apartment;
-
+    public String country;
+    public String city;
+    public String street;
+    public int houseNumber;
+    public String apartment;
 
     public static void main(String[] args) {
         Addres addres = new Addres();
@@ -22,13 +21,9 @@ public class Addres {
         System.out.print("My index number is " + addres.index);
         System.out.println(" ,and house number " + addres.houseNumber);
         System.out.println("In apartment " + addres.apartment);
-
-
     }
 
-
     public Addres() {
-
     }
 
     public Addres(int index, String country, String city, String street, int houseNumber, String apartment) {
@@ -38,7 +33,6 @@ public class Addres {
         this.street = street;
         this.houseNumber = houseNumber;
         this.apartment = apartment;
-
     }
 
     public int getIndex() {
